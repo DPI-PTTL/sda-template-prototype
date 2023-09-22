@@ -4,22 +4,29 @@
   object-fit: cover;
 }
 
-.home-text {
-  color: red;
+.slogan-div {
+  height: 120px;
+  max-width: 100%;
+  background-color: #242c64;
+  display: flex;
 }
 
-.test-div {
-  /* border-style: dotted; */
-  /* border-color: black;
-  height: 350px;
-  max-width: 100%; */
-  position: relative;
-  width: 1440px;
-  height: 300px;
-  overflow: hidden;
-  background-image: url('images/josh-beech-tXJhAFVOHVk-unsplash.jpg');
+.slogan-text {
+  color: white;
 }
 
 .nav-icon {
   width: 60px;
+}
+
+.banner-container {
+  position: relative;
+}
+
+.banner-text {
+  position: absolute;
+  bottom: 30px;
+  left: 15px;
+  padding: 10px;
+  color:white
 }
