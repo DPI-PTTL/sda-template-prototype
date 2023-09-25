@@ -30,3 +30,38 @@
   padding: 10px;
   color:white
 }
+
+.title-container {
+  margin-top: 15px;
+  margin-left: 170px;
+  margin-right: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.image-container {
+  margin-left: 140px;
+  margin-right: 140px;
+  display: flex;
+  justify-content: center;
+}
+
+.image-gallery {
+  width: 280px;
+  height: 200px;
+  object-fit: cover;
+  padding: 10px;
+  padding-top: 20px;
+}
+
+.title-font {
+  font-size: 35px;
+}
+
+.card-container {
+  margin-left: 170px;
+  margin-right: 170px;
+  display: flex;
+  justify-content: space-between;
+}
+
