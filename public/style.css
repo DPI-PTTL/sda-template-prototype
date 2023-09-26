@@ -65,3 +65,23 @@
   justify-content: space-between;
 }
 
+.colored-section {
+  background-color: #242c64;
+  max-width: 100%;
+  height: 100px;
+  text-align: center;
+}
+
+.white-text {
+  color: white;
+}
+
+.about-text {
+  text-align: left;
+}
+
+.footer-container {
+  background-color: #242c64;
+  max-width: 100%;
+  color: white;
+}
