@@ -4,6 +4,12 @@
   object-fit: cover;
 }
 
+.about-banner {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+}
+
 .slogan-div {
   height: 120px;
   max-width: 100%;
@@ -83,5 +89,15 @@
 .footer-container {
   background-color: #242c64;
   max-width: 100%;
-  color: white;
+  color: #b8c1ec;
+}
+
+.footer-text {
+  text-align: left;
+  margin-top: 40px;
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
 }
