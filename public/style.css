@@ -95,9 +95,24 @@
 .footer-text {
   text-align: left;
   margin-top: 40px;
+  margin-left: 10px;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-text a {
+  text-decoration: none;
+  color: #b8c1ec;
+  padding-bottom: 10px;
+}
+
+.footer-text a:hover {
+  color: white
 }
 
 .video-container {
   display: flex;
   justify-content: center;
 }
+
