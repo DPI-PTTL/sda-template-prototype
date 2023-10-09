@@ -2,7 +2,7 @@
   <div class="container-fluid">
     <a class="navbar-brand" href="/">
       <img src="images/thumbnail_image001.png" alt="Logo" class="d-inline-block align-text-top nav-icon">
-      Company Name
+      <%= @content['name'] %>
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -38,7 +38,7 @@
 
     <div class="navbar-nav me-3">
       <a class="nav-link" href="/" target="_blank">
-        <i class="fa-solid fa-phone"></i> Call us 123-456-7890
+        <i class="fa-solid fa-phone"></i> Call us <%= @content['phone']%>
       </a>
     </div>
   </div>
