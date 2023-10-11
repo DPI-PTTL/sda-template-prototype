@@ -2,10 +2,9 @@ require "sinatra"
 require "sinatra/reloader"
 require "yaml"
 
-content_data = YAML.load_file('content.yml')
 
 before do
-  @content = content_data
+  @content = YAML.load_file('sample_content.yml')
 end
 
 get("/") do
