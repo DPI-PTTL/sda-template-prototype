@@ -16,9 +16,9 @@
 <!--TODO: Make the client images scroll between different clients or make this a scrolling gallery of images from previous works-->
 <!--TODO: Make this look better on mobile-->
 
-<div class="d-flex justify-content-around">
+
 <div class="container text-center m-auto">
-  <div class="row row-cols-auto">
+  <div class="row row-cols-auto d-flex justify-content-center">
     <div class="col g-0">
       <img src="<%= @content['images']['gallery-one'] %>" class="image-gallery">
     </div>
@@ -33,7 +33,7 @@
     </div>
   </div>
 </div>
-</div>
+
 
 <div class="title-container">
   <p class="title-font"><%= @content['home']['heading-one'] %></p>
