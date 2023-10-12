@@ -40,10 +40,13 @@
 .title-container {
   margin: auto;
   max-width: 1200px;
+  padding-left: 30px;
 }
 
-.title-container h3 {
-  padding-left: 30px;
+.test-div {
+  border: 2px;
+  border-style: dashed;
+  border-color: black;
 }
 
 .image-gallery {
