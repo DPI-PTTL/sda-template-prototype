@@ -14,8 +14,6 @@
   <h3>Gallery:</h6>
 </div>
 <!--TODO: Make the client images scroll between different clients or make this a scrolling gallery of images from previous works-->
-<!--TODO: Make this look better on mobile-->
-
 
 <div class="container text-center m-auto">
   <div class="row row-cols-auto d-flex justify-content-center">
@@ -58,25 +56,24 @@
 <br>
 
 <div class="colored-section">
-  <div>
-    <p class="white-text"><%= @content['home']['midsection-text'] %></p>
-  </div>
+  <p class="colored-section-text" style="color: white;"><%= @content['home']['midsection-text'] %></p>
 </div>
 
 <br>
 
 <div class="container text-center about-container">
   <div class="row">
-    <div class="col">
-      <img src="<%= @content['home']['about-image'] %>" width="600">
-    </div>
     <div class="col about-text">
+      <img src="<%= @content['home']['about-image'] %>" width="300px">
       <h3>About Us</h3>
       <p><strong><%= @content['home']['about-subtext'] %></strong></p>
       <p>
         <%= @content['home']['about']%>
       </p>
-  <p></p>
+    </div>
+
+    <div class="col">
+      <%= erb :faq %>
     </div>
   </div>
 </div>
