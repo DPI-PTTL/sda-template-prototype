@@ -8,7 +8,7 @@ before do
 end
 
 get("/") do
-  erb :home
+  erb :index
 end
 
 get("/about") do
