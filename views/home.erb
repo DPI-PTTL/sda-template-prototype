@@ -1,6 +1,6 @@
 <div class="banner-container">
   <!--TODO: Make the banner image scroll between a few different images-->
-  <img src="images/josh-beech-tXJhAFVOHVk-unsplash.jpg" class="home-image" alt="custom image goes here">
+  <img src="<%= @content['images']['banner'] %>" class="home-image" alt="custom image goes here">
   <div class="banner-container">
     <div class="banner-text">
       <h2><%= @content['slogan'] %></h2>
@@ -12,7 +12,7 @@
 <br>
 
 <div class="title-container">
-  <h3>Gallery/Clients:</h6>
+  <h3>Gallery:</h6>
 </div>
 <!--TODO: Make the client images scroll between different clients or make this a scrolling gallery of images from previous works-->
 <!--TODO: Make this look better on mobile-->
@@ -21,33 +21,33 @@
   <div class="container text-center">
     <div class="row row-cols-4">
       <div class="col">
-        <img src="images/maxime-agnelli-QC1oHW5JVu4-unsplash.jpg" class="image-gallery">
+        <img src="<%= @content['images']['gallery-one'] %>" class="image-gallery">
       </div>
       <div class="col">
-        <img src="images/dane-deaner-d0AcxMk33is-unsplash.jpg" class="image-gallery">
+        <img src="<%= @content['images']['gallery-two'] %>" class="image-gallery">
       </div>
       <div class="col">
-        <img src="images/blaz-erzetic-5Wu96pC2qxE-unsplash.jpg" class="image-gallery">
+        <img src="<%= @content['images']['gallery-three'] %>" class="image-gallery">
       </div>
       <div class="col">
-        <img src="images/maxime-agnelli-QC1oHW5JVu4-unsplash.jpg" class="image-gallery">
+        <img src="<%= @content['images']['gallery-four'] %>" class="image-gallery">
       </div>
     </div>
   </div>
 </div>
 
 <div class="title-container">
-  <p class="title-font">Heading or quote or title</p>
+  <p class="title-font"><%= @content['home']['heading-one'] %></p>
 
   <p>
-    <%= @content['about'] %>
+    <%= @content['home']['section-one-text'] %>
   </p>
 </div>
 
 <br>
 
 <div class="title-container">
-  <p class="title-font">Heading or quote or title</p>
+  <p class="title-font"><%= @content['cards']['card-heading'] %></p>
 </div>
 
 <br>
@@ -60,7 +60,7 @@
 
 <div class="colored-section">
   <div>
-    <p class="white-text">Optional text goes here, I'll make this centered and styled later</p>
+    <p class="white-text"><%= @content['home']['midsection-text'] %></p>
   </div>
 </div>
 
@@ -69,13 +69,13 @@
 <div class="container text-center about-container">
   <div class="row">
     <div class="col">
-      <img src="images/blaz-erzetic-5Wu96pC2qxE-unsplash.jpg" width="600">
+      <img src="<%= @content['home']['about-image'] %>" width="600">
     </div>
     <div class="col about-text">
       <h3>About Us</h3>
-      <p><strong>Optional subtext goes here</strong></p>
+      <p><strong><%= @content['home']['about-subtext'] %></strong></p>
       <p>
-        <%= @content['about']%>
+        <%= @content['home']['about']%>
       </p>
   <p></p>
     </div>
