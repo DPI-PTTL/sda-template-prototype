@@ -38,18 +38,12 @@
 }
 
 .title-container {
-  margin-top: 15px;
-  margin-left: 170px;
-  margin-right: 200px;
-  display: flex;
-  flex-direction: column;
+  margin: auto;
+  max-width: 1200px;
 }
 
-.image-container {
-  margin-left: 140px;
-  margin-right: 140px;
-  display: flex;
-  justify-content: center;
+.title-container h3 {
+  padding-left: 30px;
 }
 
 .image-gallery {
@@ -58,6 +52,16 @@
   object-fit: cover;
   padding: 10px;
   padding-top: 20px;
+}
+
+.image-container {
+  margin: auto;
+  max-width: 1200px;
+}
+
+.image-div {
+  border: 1px;
+  border-style: dotted;
 }
 
 .title-font {
