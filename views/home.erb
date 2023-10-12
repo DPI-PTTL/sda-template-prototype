@@ -1,0 +1,85 @@
+<div class="banner-container">
+  <!--TODO: Make the banner image scroll between a few different images-->
+  <img src="<%= @content['images']['banner'] %>" class="home-image" alt="custom image goes here">
+  <div class="banner-container">
+    <div class="banner-text">
+      <h2><%= @content['slogan'] %></h2>
+      <button type="button" class="btn btn-primary btn-lg">Contact Us</button>
+    </div>
+  </div>
+</div>
+
+<br>
+
+<div class="title-container">
+  <h3>Gallery:</h6>
+</div>
+<!--TODO: Make the client images scroll between different clients or make this a scrolling gallery of images from previous works-->
+<!--TODO: Make this look better on mobile-->
+
+<div class="image-container">
+  <div class="container text-center">
+    <div class="row row-cols-4">
+      <div class="col">
+        <img src="<%= @content['images']['gallery-one'] %>" class="image-gallery">
+      </div>
+      <div class="col">
+        <img src="<%= @content['images']['gallery-two'] %>" class="image-gallery">
+      </div>
+      <div class="col">
+        <img src="<%= @content['images']['gallery-three'] %>" class="image-gallery">
+      </div>
+      <div class="col">
+        <img src="<%= @content['images']['gallery-four'] %>" class="image-gallery">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="title-container">
+  <p class="title-font"><%= @content['home']['heading-one'] %></p>
+
+  <p>
+    <%= @content['home']['section-one-text'] %>
+  </p>
+</div>
+
+<br>
+
+<div class="title-container">
+  <p class="title-font"><%= @content['cards']['card-heading'] %></p>
+</div>
+
+<br>
+
+<!--TODO: Make this look better on mobile-->
+<%= erb :cards %>
+
+<br>
+<br>
+
+<div class="colored-section">
+  <div>
+    <p class="white-text"><%= @content['home']['midsection-text'] %></p>
+  </div>
+</div>
+
+<br>
+
+<div class="container text-center about-container">
+  <div class="row">
+    <div class="col">
+      <img src="<%= @content['home']['about-image'] %>" width="600">
+    </div>
+    <div class="col about-text">
+      <h3>About Us</h3>
+      <p><strong><%= @content['home']['about-subtext'] %></strong></p>
+      <p>
+        <%= @content['home']['about']%>
+      </p>
+  <p></p>
+    </div>
+  </div>
+</div>
+
+<br>

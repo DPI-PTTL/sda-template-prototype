@@ -1,10 +1,28 @@
 require "sinatra"
 require "sinatra/reloader"
+require "yaml"
 
-get("/") do
-  send_file("index.html")
+
+before do
+  @content = YAML.load_file('sample_content.yml')
 end
 
-get("/:file_name") do |file_name|
-  send_file("#{file_name}.html")
+get("/") do
+  erb :home
+end
+
+get("/about") do
+  erb (:about)
+end
+
+get("/services") do
+  erb (:services)
+end
+
+get("/contact") do
+  erb (:contact)
+end
+
+get("/test") do
+  erb :test
 end
