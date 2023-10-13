@@ -10,6 +10,7 @@
 
 <br>
 
+<!--Mini photo gallery-->
 <div class="title-container">
   <h3>Gallery:</h6>
 </div>
@@ -32,7 +33,7 @@
   </div>
 </div>
 
-
+<!--Mini text section-->
 <div class="title-container">
   <p class="title-font"><%= @content['home']['heading-one'] %></p>
 
@@ -43,28 +44,36 @@
 
 <br>
 
+<!--Card section-->
 <div class="title-container">
   <p class="title-font"><%= @content['cards']['card-heading'] %></p>
 </div>
 
-<br>
-
-<!--TODO: Make this look better on mobile-->
 <%= erb :cards %>
 
 <br>
 <br>
 
+<!--Colored mini banner-->
 <div class="colored-section">
-  <p class="colored-section-text" style="color: white;"><%= @content['home']['midsection-text'] %></p>
+  <p class="colored-section-text" style="color: white;"><strong><%= @content['home']['midsection-text'] %></strong></p>
 </div>
 
 <br>
 
+<!--About/FAQ section-->
 <div class="container text-center about-container">
   <div class="row">
     <div class="col about-text">
-      <img src="<%= @content['home']['about-image'] %>" width="300px">
+      <div class="row">
+        <div class="col">
+          <img src="<%= @content['home']['about-image1'] %>" class="about-gallery">
+        </div>
+        <div class="col">
+          <img src="<%= @content['home']['about-image2'] %>" class="about-gallery">
+        </div>
+      </div>
+      
       <h3>About Us</h3>
       <p><strong><%= @content['home']['about-subtext'] %></strong></p>
       <p>

@@ -57,6 +57,13 @@
   padding-top: 20px;
 }
 
+.about-gallery {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  padding-bottom: 20px;
+}
+
 .image-container {
   margin: auto;
   max-width: 1200px;
