@@ -2,6 +2,8 @@ require "sinatra"
 require "sinatra/reloader"
 require "yaml"
 
+# TODO: Organize view pages, create folders
+
 
 before do
   @content = YAML.load_file('sample_content.yml')
