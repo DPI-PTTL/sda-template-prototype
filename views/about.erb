@@ -6,8 +6,27 @@
 <br>
 
 <div class="title-container">
+  <p class="title-font"><%= @content['about']['heading1'] %></p>
+
+  <p>
+    <%= @content['about']['paragraph1'] %>
+  </p>
+
+  <h3><%= @content['about']['heading2'] %></h3>
+  <p>
+    <%= @content['about']['paragraph2'] %>
+  </p>
+  <p>
+    <%= @content['about']['paragraph3'] %>
+  </p>
+</div>
+
+<br>
+
+<div class="title-container">
   <%= erb :carousel %>
 </div>
 
 <br>
+
 
