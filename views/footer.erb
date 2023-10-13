@@ -10,20 +10,39 @@
           <a href="/contact">Contact</a>
         </div>
       </div>
-      <div class="col">
-        <div class="footer-text">
-          <h5 class="white-text">Services</h6>
-          <p>This still needs a lot of work</p>
-        </div>
-      </div>
+
       <div class="col">
         <div class="footer-text">
           <h5 class="white-text">Contact</h6>
+          <p>
+            <i class="fa-solid fa-phone"></i>
+            <strong>Phone:</strong> 
+            <a href="tel:<%= @content['phone']%>">
+              <%= @content['phone']%></a>
+            </a>
+          </p>
+
+          <p>
+            <i class="fa-solid fa-envelope"></i>
+            <strong>Email:</strong>
+            <a href="mailto:<%= @content['email'] %>">
+              <%= @content['email'] %>
+            </a>
+          </p>
         </div>
       </div>
       <div class="col">
         <div class="footer-text">
-          <h5 class="white-text">Company Name</h6>
+          <h5 class="white-text"><%= @content['name'] %></h6>
+          <p>
+            <%= @content['address-line1'] %> <br>
+            <%= @content['address-line2'] %>
+          </p>
+          <p>
+            <i class="fa-solid fa-clock"></i>
+            <strong>Hours:</strong>
+              <%= @content['hours'] %>
+          </p>
         </div>
       </div>
     </div>
