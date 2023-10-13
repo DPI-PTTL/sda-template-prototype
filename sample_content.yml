@@ -1,7 +1,10 @@
 name: "My Company"
 email: "admin@example.com"
 phone: "123-456-7890"
+address-line1: "200 South Wacker Drive"
+address-line2: "Chicago, IL 60606"
 slogan: "Our slogan goes here"
+hours: "Mon-Fri 7:00AM - 5:00PM"
 
 home:
   heading-one: "Heading or quote or title"
@@ -56,3 +59,8 @@ images:
 colors:
   background: "#FFFFFF"
   text: "#000000"
+
+contact:
+  banner-image: "images/maxime-agnelli-QC1oHW5JVu4-unsplash.jpg"
+  bg-color: "#f7f7f7"
+form:

@@ -1,0 +1,50 @@
+<div class="banner-container">
+  <img src="<%= @content['contact']['banner-image'] %>" class="contact-banner" alt="custom image goes here">
+  <div class="banner-container">
+    <div class="banner-text">
+      <h2>Contact Us</h2>
+      <h5>We look forward to hearing from you!</h5>
+      <hr>
+    </div>
+  </div>
+</div>
+
+<div class="container text-center contact-container" style="background-color: <%= @content['contact']['bg-color'] %>;">
+  <div class="row">
+    <div class="col" style="text-align:left;">
+      <%= erb :form %>
+    </div>
+
+    <div class="col" style="text-align:left;">
+      <h5><%= @content['name'] %></h5>
+      <p>
+        <%= @content['address-line1'] %> <br>
+        <%= @content['address-line2'] %>
+      </p>
+      <p>
+        <i class="fa-solid fa-phone"></i>
+        <strong>Phone:</strong> 
+        <a href="tel:<%= @content['phone']%>">
+          <%= @content['phone']%></a>
+        </a>
+      </p>
+
+      <p>
+        <i class="fa-solid fa-envelope"></i>
+        <strong>Email:</strong>
+        <a href="mailto:<%= @content['email'] %>">
+          <%= @content['email'] %>
+        </a>
+      </p>
+
+      <p>
+        <i class="fa-solid fa-clock"></i>
+        <strong>Hours:</strong>
+          <%= @content['hours'] %>
+      </p>
+
+    </div>
+  </div>
+</div>
+</div>
+<br>

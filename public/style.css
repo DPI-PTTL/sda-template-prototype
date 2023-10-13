@@ -130,3 +130,15 @@
   object-fit: cover;
 }
 
+.contact-banner {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.contact-container {
+  margin: 45px 0;
+  padding: 20px 10px;
+  border: 1px;
+  border-radius: 5px;
+}
