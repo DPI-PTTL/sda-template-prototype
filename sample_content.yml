@@ -77,8 +77,11 @@ about:
 
 carousel:
   image1: "images/christopher-burns-8KfCR12oeUM-unsplash.jpg"
+  image1-alt: "Someone doing metal work."
   image2: "images/blaz-erzetic-5Wu96pC2qxE-unsplash.jpg"
+  image2-alt: "Someone doing metal work."
   image3: "images/josh-beech-tXJhAFVOHVk-unsplash.jpg"
+  image3-alt: "Someone doing metal work."
 
 
 faq:
