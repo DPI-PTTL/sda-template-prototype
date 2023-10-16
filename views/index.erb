@@ -15,8 +15,7 @@
 
 <!--Mini photo gallery-->
 <div class="title-container">
-  <p class="title-font">Gallery/Clients:</p>
-<!--TODO: Make the client images scroll between different clients or make this a scrolling gallery of images from previous works-->
+  <p class="title-font"><%= @content['images']['title'] %></p>
 </div>
 
 <div class="container text-center m-auto">
@@ -35,6 +34,8 @@
     </div>
   </div>
 </div>
+
+<br>
 
 <!--Mini text section-->
 <div class="title-container">
@@ -59,7 +60,7 @@
 
 <!--Colored mini banner-->
 <div class="colored-section">
-  <p class="colored-section-text" style="color: white;"><strong><%= @content['home']['midsection-text'] %></strong></p>
+  <p class="colored-section-text" style="color: white;"><strong><%= @content['home']['colored-text'] %></strong></p>
 </div>
 
 <br>
@@ -80,7 +81,11 @@
       <h3>About Us</h3>
       <p><strong><%= @content['home']['about-subtext'] %></strong></p>
       <p>
-        <%= @content['home']['about']%>
+        <%= @content['home']['about_paragraph1']%>
+      </p>
+
+      <p>
+        <%= @content['home']['about_paragraph2']%>
       </p>
     </div>
 
