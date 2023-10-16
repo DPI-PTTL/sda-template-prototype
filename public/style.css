@@ -22,7 +22,6 @@
 }
 
 .nav-icon {
-  width: 50px;
   margin-right:10px;
 }
 
@@ -103,7 +102,7 @@
 
 .footer-container {
   max-width: 100%;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 
 .footer-text {
