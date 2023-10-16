@@ -10,6 +10,7 @@ copyright: "©2023 Acme Manufacturing, Inc · All Rights Reserved"
 nav:
   icon: "images/thumbnail_image001.png"
   color: "#e3f2fd"
+  text-color: "black"
 
 home:
   banner: "images/josh-beech-tXJhAFVOHVk-unsplash.jpg"
