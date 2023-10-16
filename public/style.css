@@ -34,7 +34,6 @@
   bottom: 30px;
   left: 15px;
   padding: 10px;
-  color:white
 }
 
 .title-container {
@@ -88,7 +87,6 @@
 }
 
 .colored-section {
-  background-color: #242c64;
   text-align: center;
   background-size: cover;
 }
@@ -103,9 +101,7 @@
 }
 
 .footer-container {
-  background-color: #242c64;
   max-width: 100%;
-  color: #b8c1ec;
   padding-bottom: 20px;
 }
 

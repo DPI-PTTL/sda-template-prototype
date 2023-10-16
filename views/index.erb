@@ -1,11 +1,11 @@
 <!--Banner and slogan-->
 <div class="banner-container">
-  <img src="<%= @content['images']['banner'] %>" class="home-image" alt="custom image goes here">
+  <img src="<%= @content['home']['banner'] %>" class="home-image" alt="<%= @content['home']['banner-alt'] %>">
   <div class="banner-container">
     <div class="banner-text">
-      <h2><%= @content['slogan'] %></h2>
+      <h2 style="color: <%= @content['home']['slogan-color'] %>;"><%= @content['slogan'] %></h2>
       <a href="/contact">
-        <button type="button" class="btn btn-primary btn-lg">Contact Us</button>
+        <button type="button" class="btn btn-lg" style="background-color: <%= @content['home']['button-color'] %>;">Contact Us</button>
       </a>
     </div>
   </div>
@@ -21,16 +21,16 @@
 <div class="container text-center m-auto">
   <div class="row row-cols-auto d-flex justify-content-center">
     <div class="col g-0">
-      <img src="<%= @content['images']['gallery-one'] %>" class="image-gallery">
+      <img src="<%= @content['images']['image1'] %>" class="image-gallery" alt="<%= @content['images']['image1-alt'] %>">
     </div>
     <div class="col g-0">
-      <img src="<%= @content['images']['gallery-two'] %>" class="image-gallery">
+      <img src="<%= @content['images']['image2'] %>" class="image-gallery" alt="<%= @content['images']['image2-alt'] %>">
     </div>
     <div class="col g-0">
-      <img src="<%= @content['images']['gallery-three'] %>" class="image-gallery">
+      <img src="<%= @content['images']['image3'] %>" class="image-gallery" alt="<%= @content['images']['image3-alt'] %>">
     </div>
     <div class="col g-0">
-      <img src="<%= @content['images']['gallery-four'] %>" class="image-gallery">
+      <img src="<%= @content['images']['image4'] %>" class="image-gallery" alt="<%= @content['images']['image4-alt'] %>">
     </div>
   </div>
 </div>
@@ -59,8 +59,8 @@
 <br>
 
 <!--Colored mini banner-->
-<div class="colored-section">
-  <p class="colored-section-text" style="color: white;"><strong><%= @content['home']['colored-text'] %></strong></p>
+<div class="colored-section" style="background-color: <%= @content['home']['colored-section'] %>;">
+  <p class="colored-section-text" style="color: <%= @content['home']['colored-section-text-color'] %>;"><strong><%= @content['home']['colored-section-text'] %></strong></p>
 </div>
 
 <br>
@@ -71,10 +71,10 @@
     <div class="col about-text">
       <div class="row">
         <div class="col">
-          <img src="<%= @content['home']['about-image1'] %>" class="about-gallery">
+          <img src="<%= @content['home']['about-image1'] %>" class="about-gallery" alt="<%= @content['home']['about-image1-alt'] %>">
         </div>
         <div class="col">
-          <img src="<%= @content['home']['about-image2'] %>" class="about-gallery">
+          <img src="<%= @content['home']['about-image2'] %>" class="about-gallery" alt="<%= @content['home']['about-image2-alt'] %>">
         </div>
       </div>
       

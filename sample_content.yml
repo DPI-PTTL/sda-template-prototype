@@ -7,30 +7,49 @@ slogan: "A High Level of Quality Control in compliance with National and Interna
 hours: "Mon-Fri 7:00AM - 5:00PM"
 copyright: "©2023 Acme Manufacturing, Inc · All Rights Reserved"
 
+nav:
+  icon: "images/thumbnail_image001.png"
+  color: "#e3f2fd"
+
 home:
+  banner: "images/josh-beech-tXJhAFVOHVk-unsplash.jpg"
+  banner-alt: "Banner image for the homepage, a man doing metal work."
+  slogan-color: "white"
+  button-color: "#b8c1ec"
   heading-one: "The Metal You Need — Right When You Need It."
   section-one-text: "Acme Manufacturing was formed to provide Globally Sourced Manufacturing of High Integrity Aluminum and Magnesium Die Castings. We provide World Class Tooling utilizing a US-Based Program Management and Engineering Development Team. As your Solutions provider, we utilize our US-based Program Management and Engineering expertise combined with our Strategic Global Manufacturing Partners to bring your designs from concept to series production."
-  colored-text: "We provide innovative product solutions for sustainable progress. Our professional team works to increase productivity and cost-effectiveness throughout the market."
+  colored-section: "#242c64"
+  colored-section-text-color: "white"
+  colored-section-text: "We provide innovative product solutions for sustainable progress. Our professional team works to increase productivity and cost-effectiveness throughout the market."
   about-subtext: "Metal isn’t just our expertise, it’s part of our heritage."
   about_paragraph1: "We specialize in custom metal work of all types of sheet metal, including stainless steel and copper. Working closely with owners, architects and designers, our family run business will provide you with personalized service to meet all your needs and specifications. Our expertise includes all aspects of commercial kitchen restaurant manufacturing and design. Including hoods, sinks, counters, steamtables, ventilation and NSF custom fabricating along with many other unique commercial applications."
   about_paragraph2: "In addition we also specialize in custom designed kitchens and baths including a wide array of artistic custom fabrications for our residential and office customers. We pride ourselves in our craftsmanship and attention to detail. Please contact us to review your project and allow us to provide you with a competitive quote."
   about-image1: "images/blaz-erzetic-5Wu96pC2qxE-unsplash.jpg"
+  about-image1-alt: "Someone doing metal work."
   about-image2: "images/engin-akyurt-ec1dSumeUsM-unsplash.jpg"
+  about-image2-alt: "Metals"
 
 images:
   title: "Gallery"
-  banner: "images/josh-beech-tXJhAFVOHVk-unsplash.jpg"
-  gallery-one: "images/maxime-agnelli-QC1oHW5JVu4-unsplash.jpg"
-  gallery-two: "images/dane-deaner-d0AcxMk33is-unsplash.jpg"
-  gallery-three: "images/blaz-erzetic-5Wu96pC2qxE-unsplash.jpg"
-  gallery-four: "images/maxime-agnelli-QC1oHW5JVu4-unsplash.jpg"
+  image1: "images/maxime-agnelli-QC1oHW5JVu4-unsplash.jpg"
+  image1-alt: "Man doing metal work."
+  image2: "images/dane-deaner-d0AcxMk33is-unsplash.jpg"
+  image2-alt: "Man doing metal work."
+  image3: "images/blaz-erzetic-5Wu96pC2qxE-unsplash.jpg"
+  image3-alt: "Someone doing metal work."
+  image4: "images/maxime-agnelli-QC1oHW5JVu4-unsplash.jpg"
+  image4-alt: "Man doing metal work."
 
 cards:
   card-heading: "The Four Pillars of Acme Manufacturing"
   card1-image: "images/christopher-burns-8KfCR12oeUM-unsplash.jpg"
+  image1-alt: "Someone doing metal work."
   card2-image: "images/engin-akyurt-ec1dSumeUsM-unsplash.jpg"
+  image2-alt: "Metals"
   card3-image: "images/blaz-erzetic-5Wu96pC2qxE-unsplash.jpg"
+  image3-alt: "Someone doing metal work."
   card4-image: "images/engin-akyurt-ec1dSumeUsM-unsplash.jpg"
+  image4-alt: "Metals"
   bold-text1: "Fast Service"
   card-text1: "Place your order on the spot in our showroom or over the phone, and for most orders, we’ll have you loaded up and ready to go in 20-60 minutes."
   bold-text2: "Competitive Pricing"
@@ -43,6 +62,7 @@ cards:
 about:
   banner-image: "images/dane-deaner-d0AcxMk33is-unsplash.jpg"
   banner-alt: "Banner image for the about page, a man welding some metal"
+  banner-text-color: "white"
   banner-subtext: "As your Solutions provider, we utilize our US-based Program Management and Engineering expertise."
   heading1: "Mission"
   paragraph1: "<p><strong>Providing a variety of raw or fabricated metals to all customers in a friendly and efficient manner.</strong></p>
@@ -59,9 +79,6 @@ carousel:
   image2: "images/blaz-erzetic-5Wu96pC2qxE-unsplash.jpg"
   image3: "images/josh-beech-tXJhAFVOHVk-unsplash.jpg"
 
-nav:
-  icon: "images/thumbnail_image001.png"
-  color: "#e3f2fd"
 
 faq:
   question1: "Do you offer same-day service?"
@@ -82,3 +99,7 @@ contact:
   banner-subtext: "Banner image for the contact page, a man doing some metal work."
   bg-color: "#f7f7f7"
 form:
+
+footer:
+  background-color: "#242c64"
+  text-color: "#b8c1ec"
