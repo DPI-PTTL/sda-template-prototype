@@ -41,11 +41,18 @@ cards:
   card-text4: "You shouldn’t have to drive all over town to get the quality material you need. Our one-stop-shop warehouse is easily accessible from all areas of Chicago and surrounding suburbs."
 
 about:
-  heading1: "Heading or quote or title"
-  paragraph1: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enimad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor inreprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enimad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor inreprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,sunt in culpa qui officia deserunt mollit anim id est laborum."
-  heading2: "Heading or quote or title"
-  paragraph2: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enimad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor inreprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,sunt in culpa qui officia deserunt mollit anim id est laborum."
-  paragraph3: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enimad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor inreprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,sunt in culpa qui officia deserunt mollit anim id est laborum."
+  banner-image: "images/dane-deaner-d0AcxMk33is-unsplash.jpg"
+  banner-alt: "Banner image for the about page, a man welding some metal"
+  banner-subtext: "As your Solutions provider, we utilize our US-based Program Management and Engineering expertise."
+  heading1: "Mission"
+  paragraph1: "<p><strong>Providing a variety of raw or fabricated metals to all customers in a friendly and efficient manner.</strong></p>
+  <p>Combined with our Strategic Global Die Casting and Tooling Manufacturing Partners to bring your designs from concept to prototype, to series production.</p>"
+  heading2: "We take great pride developing cost-effective, time-saving strategies."
+  paragraph2: "<p>Avenue Metal Co., Inc. has been fabricating for home owners and industry since 1954 and has earned a reputation for being one one the most serious and reliable custom metal shops in the industry. We make your projects and your problems our own. Our goal is to make your endeavor run as smoothly as possible and without worry.</p>
+
+<p>In addition to rapid and efficient fabrication and installation, Avenue Metal Co., Inc. has taken the traditional use of metals in architectural design and added a modern twist through custom designs that meet the trends of today.</p>
+
+<p>We thrive on the challenge of projects that others consider impossible to complete. If you are faced with a task that seems like it cannot be done, place it in our hands and it is as good as yours. Our talented staff of mechanics is ready to assist you and work with you one on one until your project is complete.</p>"
 
 carousel:
   image1: "images/christopher-burns-8KfCR12oeUM-unsplash.jpg"

@@ -1,12 +1,18 @@
 <div class="banner-container">
-  <!--TODO: Make the banner image scroll between a few different images-->
-  <img src="images/engin-akyurt-ec1dSumeUsM-unsplash.jpg" class="home-image" alt="custom image goes here">
+  <img src="<%= @content['about']['banner-image'] %>" class="contact-banner" alt="<%= @content['about']['banner-alt'] %>">
+  <div class="banner-container">
+    <div class="banner-text">
+      <h2>About Us</h2>
+      <h5><%= @content['about']['banner-subtext'] %></h5>
+      <hr>
+    </div>
+  </div>
 </div>
 
 <br>
 
 <div class="title-container">
-  <p class="title-font"><%= @content['about']['heading1'] %></p>
+  <h3><%= @content['about']['heading1'] %></h3>
 
   <p>
     <%= @content['about']['paragraph1'] %>
@@ -15,9 +21,6 @@
   <h3><%= @content['about']['heading2'] %></h3>
   <p>
     <%= @content['about']['paragraph2'] %>
-  </p>
-  <p>
-    <%= @content['about']['paragraph3'] %>
   </p>
 </div>
 
