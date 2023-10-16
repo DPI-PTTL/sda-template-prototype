@@ -32,10 +32,10 @@
       <div class="col">
         <div class="footer-text">
           <h5 class="white-text"><%= @content['name'] %></h6>
-          <p>
+          <a href="https://www.google.com/maps/search/?api=1&query=<%= @content['address-line1'] %>+<%= @content['address-line2'] %>" target="_blank">
             <%= @content['address-line1'] %> <br>
             <%= @content['address-line2'] %>
-          </p>
+          </a>
           <p>
             <i class="fa-solid fa-clock"></i>
             <strong>Hours:</strong>

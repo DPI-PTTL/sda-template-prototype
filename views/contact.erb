@@ -17,11 +17,11 @@
 
     <div class="col" style="text-align:left;">
       <h5><%= @content['name'] %></h5>
-      <p>
+       <a href="https://www.google.com/maps/search/?api=1&query=<%= @content['address-line1'] %>+<%= @content['address-line2'] %>" target="_blank">
         <%= @content['address-line1'] %> <br>
         <%= @content['address-line2'] %>
-      </p>
-      <p>
+      </a>
+      <p class="mt-2">
         <i class="fa-solid fa-phone"></i>
         <strong>Phone:</strong> 
         <a href="tel:<%= @content['phone']%>">
