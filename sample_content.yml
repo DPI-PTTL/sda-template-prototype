@@ -79,5 +79,6 @@ colors:
 
 contact:
   banner-image: "images/maxime-agnelli-QC1oHW5JVu4-unsplash.jpg"
+  banner-subtext: "Banner image for the contact page, a man doing some metal work."
   bg-color: "#f7f7f7"
 form:
