@@ -9,22 +9,18 @@ before do
   @content = YAML.load_file('sample_content.yml')
 end
 
-get("/") do
+get "/" do
   erb :index
 end
 
-get("/about") do
+get "/about" do
   erb (:about)
 end
 
-get("/services") do
+get "/services" do
   erb (:services)
 end
 
-get("/contact") do
+get "/contact" do
   erb (:contact)
-end
-
-get("/test") do
-  erb :test
 end
