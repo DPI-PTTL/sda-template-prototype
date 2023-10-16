@@ -1,9 +1,9 @@
 <div class="banner-container">
-  <img src="<%= @content['contact']['banner-image'] %>" class="contact-banner" alt="<%= @content['contact']['banner-subtext'] %>">
+  <img src="<%= @content['contact']['banner-image'] %>" class="contact-banner" alt="<%= @content['contact']['banner-alt'] %>">
   <div class="banner-container">
-    <div class="banner-text">
+    <div class="banner-text" style="color: <%= @content['contact']['banner-text-color'] %>;">
       <h2>Contact Us</h2>
-      <h5>We look forward to hearing from you!</h5>
+      <h5><%= @content['contact']['contact-subtext'] %></h5>
       <hr>
     </div>
   </div>

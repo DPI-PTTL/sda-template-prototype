@@ -8,7 +8,8 @@ hours: "Mon-Fri 7:00AM - 5:00PM"
 copyright: "©2023 Acme Manufacturing, Inc · All Rights Reserved"
 
 nav:
-  icon: "images/thumbnail_image001.png"
+  icon: "images/wrench-icon-2048x2048-r8eb04ey.png"
+  icon-alt: "Company Logo, a wrench"
   color: "#e3f2fd"
   text-color: "black"
 
@@ -100,7 +101,9 @@ colors:
 
 contact:
   banner-image: "images/maxime-agnelli-QC1oHW5JVu4-unsplash.jpg"
-  banner-subtext: "Banner image for the contact page, a man doing some metal work."
+  banner-alt: "Banner image for the contact page, a man doing some metal work."
+  banner-text-color: "white"
+  contact-subtext: "We look forward to hearing from you!"
   bg-color: "#f7f7f7"
 form:
 
