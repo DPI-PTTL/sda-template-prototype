@@ -8,13 +8,13 @@ hours: "Mon-Fri 7:00AM - 5:00PM"
 copyright: "©2023 Acme Manufacturing, Inc · All Rights Reserved"
 
 nav:
-  icon: "images/wrench-icon-2048x2048-r8eb04ey.png"
+  icon: "images/wrench-logo.png"
   icon-alt: "Company Logo, a wrench"
   color: "#e3f2fd"
   text-color: "black"
 
 home:
-  banner: "images/josh-beech-tXJhAFVOHVk-unsplash.jpg"
+  banner: "images/metalwork3.jpg"
   banner-alt: "Banner image for the homepage, a man doing metal work."
   slogan-color: "white"
   button-color: "#b8c1ec"
@@ -26,31 +26,31 @@ home:
   about-subtext: "Metal isn’t just our expertise, it’s part of our heritage."
   about_paragraph1: "We specialize in custom metal work of all types of sheet metal, including stainless steel and copper. Working closely with owners, architects and designers, our family run business will provide you with personalized service to meet all your needs and specifications. Our expertise includes all aspects of commercial kitchen restaurant manufacturing and design. Including hoods, sinks, counters, steamtables, ventilation and NSF custom fabricating along with many other unique commercial applications."
   about_paragraph2: "In addition we also specialize in custom designed kitchens and baths including a wide array of artistic custom fabrications for our residential and office customers. We pride ourselves in our craftsmanship and attention to detail. Please contact us to review your project and allow us to provide you with a competitive quote."
-  about-image1: "images/blaz-erzetic-5Wu96pC2qxE-unsplash.jpg"
+  about-image1: "images/drill.jpg"
   about-image1-alt: "Someone doing metal work."
-  about-image2: "images/engin-akyurt-ec1dSumeUsM-unsplash.jpg"
+  about-image2: "images/metals.jpg"
   about-image2-alt: "Metals"
 
 images:
   title: "Gallery"
-  image1: "images/maxime-agnelli-QC1oHW5JVu4-unsplash.jpg"
+  image1: "images/metalwork4.jpg"
   image1-alt: "Man doing metal work."
-  image2: "images/dane-deaner-d0AcxMk33is-unsplash.jpg"
+  image2: "images/metalwork2.jpg"
   image2-alt: "Man doing metal work."
-  image3: "images/blaz-erzetic-5Wu96pC2qxE-unsplash.jpg"
+  image3: "images/drill.jpg"
   image3-alt: "Someone doing metal work."
-  image4: "images/maxime-agnelli-QC1oHW5JVu4-unsplash.jpg"
+  image4: "images/metalwork4.jpg"
   image4-alt: "Man doing metal work."
 
 cards:
   card-heading: "The Four Pillars of Acme Manufacturing"
-  card1-image: "images/christopher-burns-8KfCR12oeUM-unsplash.jpg"
+  card1-image: "images/metalwork1.jpg"
   image1-alt: "Someone doing metal work."
-  card2-image: "images/engin-akyurt-ec1dSumeUsM-unsplash.jpg"
+  card2-image: "images/metals.jpg"
   image2-alt: "Metals"
-  card3-image: "images/blaz-erzetic-5Wu96pC2qxE-unsplash.jpg"
+  card3-image: "images/drill.jpg"
   image3-alt: "Someone doing metal work."
-  card4-image: "images/engin-akyurt-ec1dSumeUsM-unsplash.jpg"
+  card4-image: "images/metals.jpg"
   image4-alt: "Metals"
   bold-text1: "Fast Service"
   card-text1: "Place your order on the spot in our showroom or over the phone, and for most orders, we’ll have you loaded up and ready to go in 20-60 minutes."
@@ -62,7 +62,7 @@ cards:
   card-text4: "You shouldn’t have to drive all over town to get the quality material you need. Our one-stop-shop warehouse is easily accessible from all areas of Chicago and surrounding suburbs."
 
 about:
-  banner-image: "images/dane-deaner-d0AcxMk33is-unsplash.jpg"
+  banner-image: "images/metalwork2.jpg"
   banner-alt: "Banner image for the about page, a man welding some metal"
   banner-text-color: "white"
   banner-subtext: "As your Solutions provider, we utilize our US-based Program Management and Engineering expertise."
@@ -70,16 +70,16 @@ about:
   paragraph1: "<p><strong>Providing a variety of raw or fabricated metals to all customers in a friendly and efficient manner.</strong></p>
   <p>Combined with our Strategic Global Die Casting and Tooling Manufacturing Partners to bring your designs from concept to prototype, to series production.</p>"
   heading2: "We take great pride developing cost-effective, time-saving strategies."
-  paragraph2: "<p>Avenue Metal Co., Inc. has been fabricating for home owners and industry since 1954 and has earned a reputation for being one one the most serious and reliable custom metal shops in the industry. We make your projects and your problems our own. Our goal is to make your endeavor run as smoothly as possible and without worry.</p>
+  paragraph2: "<p>Acme Manufacturing, Inc. has been fabricating for home owners and industry since 2000 and has earned a reputation for being one one the most serious and reliable custom metal shops in the industry. We make your projects and your problems our own. Our goal is to make your endeavor run as smoothly as possible and without worry.</p>
 
-<p>In addition to rapid and efficient fabrication and installation, Avenue Metal Co., Inc. has taken the traditional use of metals in architectural design and added a modern twist through custom designs that meet the trends of today.</p>
+<p>In addition to rapid and efficient fabrication and installation, Acme Manufacturing, Inc. has taken the traditional use of metals in architectural design and added a modern twist through custom designs that meet the trends of today.</p>
 
 <p>We thrive on the challenge of projects that others consider impossible to complete. If you are faced with a task that seems like it cannot be done, place it in our hands and it is as good as yours. Our talented staff of mechanics is ready to assist you and work with you one on one until your project is complete.</p>"
 
 carousel:
-  image1: "images/christopher-burns-8KfCR12oeUM-unsplash.jpg"
+  image1: "images/metalwork1.jpg"
   image1-alt: "Someone doing metal work."
-  image2: "images/blaz-erzetic-5Wu96pC2qxE-unsplash.jpg"
+  image2: "images/drill.jpg"
   image2-alt: "Someone doing metal work."
   image3: "images/josh-beech-tXJhAFVOHVk-unsplash.jpg"
   image3-alt: "Someone doing metal work."
@@ -100,7 +100,7 @@ colors:
   text: "#000000"
 
 contact:
-  banner-image: "images/maxime-agnelli-QC1oHW5JVu4-unsplash.jpg"
+  banner-image: "images/metalwork4.jpg"
   banner-alt: "Banner image for the contact page, a man doing some metal work."
   banner-text-color: "white"
   contact-subtext: "We look forward to hearing from you!"

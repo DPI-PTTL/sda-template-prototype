@@ -30,6 +30,7 @@ GEM
     concurrent-ruby (1.2.2)
     crack (0.4.5)
       rexml
+    date (3.3.3)
     debug_inspector (1.1.0)
     diff-lcs (1.5.0)
     draft_matchers (0.0.2)
@@ -51,6 +52,11 @@ GEM
     hashdiff (1.0.1)
     i18n (1.12.0)
       concurrent-ruby (~> 1.0)
+    mail (2.8.1)
+      mini_mime (>= 0.1.1)
+      net-imap
+      net-pop
+      net-smtp
     matrix (0.4.2)
     method_source (1.0.0)
     mini_mime (1.1.2)
@@ -58,6 +64,15 @@ GEM
     multi_json (1.15.0)
     mustermann (3.0.0)
       ruby2_keywords (~> 0.0.1)
+    net-imap (0.4.1)
+      date
+      net-protocol
+    net-pop (0.1.2)
+      net-protocol
+    net-protocol (0.2.1)
+      timeout
+    net-smtp (0.4.0)
+      net-protocol
     nio4r (2.5.9)
     nokogiri (1.14.3-x86_64-darwin)
       racc (~> 1.4)
@@ -67,6 +82,8 @@ GEM
       faraday (>= 1, < 3)
       sawyer (~> 0.9)
     oj (3.13.23)
+    pony (1.13.1)
+      mail (>= 2.0)
     pry (0.14.2)
       coderay (~> 1.1)
       method_source (~> 1.0)
@@ -121,6 +138,7 @@ GEM
     sqlite3 (1.6.2-x86_64-darwin)
     sqlite3 (1.6.2-x86_64-linux)
     tilt (2.1.0)
+    timeout (0.4.0)
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
     webdrivers (5.2.0)
@@ -147,6 +165,7 @@ DEPENDENCIES
   draft_matchers
   grade_runner
   i18n
+  pony
   pry
   puma (~> 5.0)
   rspec
