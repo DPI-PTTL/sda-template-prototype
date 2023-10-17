@@ -25,10 +25,6 @@ get "/contact" do
   erb (:contact)
 end
 
-get "/test" do
-  erb (:test_form)
-end
-
 get "/send" do
   subject = params[:subject]
   body = params[:body]
