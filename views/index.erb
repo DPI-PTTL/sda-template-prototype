@@ -1,6 +1,8 @@
 <!--Banner and slogan-->
-<div class="banner-container">
-  <img src="<%= @content['home']['banner'] %>" class="home-image" alt="<%= @content['home']['banner-alt'] %>">
+<section class="banner-container ">
+  <video autoplay loop playsinline muted class="home-image">
+    <source src="<%= @content['home']['banner'] %>" type="video/mp4">
+  </video>
   <div class="banner-container">
     <div class="banner-text">
       <h2 style="color: <%= @content['home']['slogan-color'] %>;"><%= @content['slogan'] %></h2>
@@ -9,7 +11,7 @@
       </a>
     </div>
   </div>
-</div>
+</section>
 
 <!--Mini photo gallery-->
 <div class="gallery-text-div">
