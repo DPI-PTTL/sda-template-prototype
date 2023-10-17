@@ -23,9 +23,7 @@
           <p>
             <i class="fa-solid fa-envelope"></i>
             <strong>Email:</strong>
-            <a href="mailto:<%= @content['email'] %>">
-              <%= @content['email'] %>
-            </a>
+            <%= erb (:email_link) %>
           </p>
         </div>
       </div>
