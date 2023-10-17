@@ -10,6 +10,15 @@
   object-fit: cover;
 }
 
+.about-home-div {
+  padding: 20px 0;
+}
+
+.gallery-text-div {
+  padding-top: 20px;
+}
+
+
 .slogan-div {
   height: 120px;
   max-width: 100%;
@@ -22,6 +31,7 @@
 }
 
 .nav-icon {
+  width: 50px;
   margin-right:10px;
 }
 
