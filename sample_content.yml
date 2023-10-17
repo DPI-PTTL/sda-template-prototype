@@ -16,7 +16,7 @@ nav:
   text-color: "black"
 
 home:
-  banner: "images/sparkles_-_12543 (720p).mp4"
+  banner: "images/sparkles.mp4"
   slogan-color: "white"
   button-color: "#b8c1ec"
   heading-one: "The Metal You Need — Right When You Need It."
@@ -40,7 +40,7 @@ gallery:
   image2-alt: "Man doing metal work."
   image3: "images/drill.jpg"
   image3-alt: "Someone doing metal work."
-  image4: "images/metalwork3.jpg"
+  image4: "images/metalwork5.jpg"
   image4-alt: "Man doing metal work."
   image5: "images/metalwork1.jpg"
   image5-alt: "Someone doing metal work."
@@ -59,7 +59,7 @@ cards:
   image2-alt: "Metals"
   card3-image: "images/drill.jpg"
   image3-alt: "Someone doing metal work."
-  card4-image: "images/metals.jpg"
+  card4-image: "images/metalwork5.jpg"
   image4-alt: "Metals"
   bold-text1: "Fast Service"
   card-text1: "Place your order on the spot in our showroom or over the phone, and for most orders, we’ll have you loaded up and ready to go in 20-60 minutes."
@@ -114,6 +114,12 @@ contact:
   banner-text-color: "white"
   contact-subtext: "We look forward to hearing from you!"
   bg-color: "#f7f7f7"
+  carousel-image1: "images/metal-shop.jpg"
+  carousel-image1-alt: "A metal shop"
+  carousel-image2: "images/metal-factory.jpg"
+  carousel-image2-alt: "A metal factory"
+  carousel-image3: "images/metalwork5.jpg"
+  carousel-image3-alt: "A man doing some metal work"
 form:
 
 footer:
