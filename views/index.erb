@@ -13,27 +13,17 @@
 
 <!--Mini photo gallery-->
 <div class="gallery-text-div">
-<div class="title-container">
-  <p class="title-font"><%= @content['images']['title'] %></p>
-</div>
+  <div class="title-container">
+    <p class="title-font"><%= @content['gallery']['title'] %></p>
+  </div>
 
-<div class="container text-center m-auto">
-  <div class="row row-cols-auto d-flex justify-content-center">
-    <div class="col g-0">
-      <img src="<%= @content['images']['image1'] %>" class="image-gallery" alt="<%= @content['images']['image1-alt'] %>">
-    </div>
-    <div class="col g-0">
-      <img src="<%= @content['images']['image2'] %>" class="image-gallery" alt="<%= @content['images']['image2-alt'] %>">
-    </div>
-    <div class="col g-0">
-      <img src="<%= @content['images']['image3'] %>" class="image-gallery" alt="<%= @content['images']['image3-alt'] %>">
-    </div>
-    <div class="col g-0">
-      <img src="<%= @content['images']['image4'] %>" class="image-gallery" alt="<%= @content['images']['image4-alt'] %>">
+  <div class="container text-center m-auto">
+    <div class="row row-cols-auto d-flex justify-content-center">
+    <%= erb :gallery %>
     </div>
   </div>
 </div>
-</div>
+
 
 <br>
 

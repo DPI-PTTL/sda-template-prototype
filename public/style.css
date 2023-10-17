@@ -18,6 +18,22 @@
   padding-top: 20px;
 }
 
+div.scroll-container {
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+div.scroll-container img {
+  padding: 10px;
+}
+
+.scroll-container img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+}
+
 
 .slogan-div {
   height: 120px;
@@ -56,16 +72,6 @@
   border: 2px;
   border-style: dashed;
   border-color: black;
-}
-
-.image-gallery {
-  width: 280px;
-  height: 200px;
-  object-fit: cover;
-  padding: 10px;
-  padding-top: 20px;
-  border: 1px;
-  border-radius: 10px;
 }
 
 .about-gallery {

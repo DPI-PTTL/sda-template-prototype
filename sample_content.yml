@@ -31,7 +31,7 @@ home:
   about-image2: "images/metals.jpg"
   about-image2-alt: "Metals"
 
-images:
+gallery:
   title: "Gallery"
   image1: "images/metalwork4.jpg"
   image1-alt: "Man doing metal work."
@@ -39,8 +39,16 @@ images:
   image2-alt: "Man doing metal work."
   image3: "images/drill.jpg"
   image3-alt: "Someone doing metal work."
-  image4: "images/metalwork4.jpg"
+  image4: "images/metalwork3.jpg"
   image4-alt: "Man doing metal work."
+  image5: "images/metalwork1.jpg"
+  image5-alt: "Someone doing metal work."
+  image6: "images/metals.jpg"
+  image6-alt: "Some metal products."
+  image7: "images/metalwork4.jpg"
+  image7-alt: "Man doing metal work."
+  image8: "images/metalwork3.jpg"
+  image8-alt: "Man doing metal work."
 
 cards:
   card-heading: "The Four Pillars of Acme Manufacturing"
