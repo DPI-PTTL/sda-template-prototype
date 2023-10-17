@@ -24,3 +24,17 @@ end
 get "/contact" do
   erb (:contact)
 end
+
+get "/test" do
+  erb (:test_form)
+end
+
+get "/send" do
+  subject = params[:subject]
+  body = params[:body]
+
+  recipient_email = "#{@content['email']}"  # Replace with the recipient's email address
+
+  mailto_link = "mailto:#{recipient_email}?subject=#{subject}&body=#{body}"
+  redirect mailto_link
+end

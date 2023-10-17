@@ -1,19 +1,8 @@
-<form class="row g-3">
-  <div class="col-md-6">
-    <label for="name" class="form-label">Name</label>
-    <input type="name" class="form-control" id="name" name="name">
-  </div>
-  <div class="col-md-6">
-    <label for="email" class="form-label">Email</label>
-    <input type="email" class="form-control" id="email" name="email">
-  </div>
+<form action="/send" method="get" enctype="text/plain" class="row g-3" >
+  <input type="hidden" name="subject" value="Inquiry from website">
   <div class="col-12">
-    <label for="phone" class="form-label">Phone</label>
-    <input type="tel" class="form-control" id="phone" name="phone" placeholder="Phone Number">
-  </div>
-  <div class="col-12">
-    <label for="message" class="form-label">Provide Details 2</label>
-    <textarea class="form-control" id="message" name="message" placeholder="Message"></textarea>
+    <label for="message" class="form-label">Provide Details:</label>
+    <textarea class="form-control" id="message"name="body" rows="5" cols="30" placeholder="Message"></textarea>
   </div>
   <div class="col-12">
     <button type="submit" class="btn btn-primary">Submit Request</button>
