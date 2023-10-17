@@ -17,19 +17,22 @@
 
     <div class="col-md-6" style="text-align:left;">
       <h5><%= @content['name'] %></h5>
-       <a class="effect-one" href="https://www.google.com/maps/search/?api=1&query=<%= @content['address-line1'] %>+<%= @content['address-line2'] %>" target="_blank">
-        <%= @content['address-line1'] %> <br>
-        <%= @content['address-line2'] %>
-      </a>
-      <p class="mt-2">
+      <div class="contact-link">
+        <a href="https://www.google.com/maps/search/?api=1&query=<%= @content['address-line1'] %>+<%= @content['address-line2'] %>" target="_blank">
+          <%= @content['address-line1'] %> <br>
+          <%= @content['address-line2'] %>
+        </a>
+      </div>
+
+      <p class="mt-2 contact-link">
         <i class="fa-solid fa-phone"></i>
         <strong>Phone:</strong> 
-        <a class="effect-one" href="tel:<%= @content['phone']%>">
+        <a href="tel:<%= @content['phone']%>">
           <%= @content['phone']%></a>
         </a>
       </p>
 
-      <p>
+      <p class="contact-link">
         <i class="fa-solid fa-envelope"></i>
         <strong>Email:</strong>
         <%= erb (:email_link) %>
